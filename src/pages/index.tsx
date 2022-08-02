@@ -1,5 +1,6 @@
 import io from "socket.io-client";
 import { useState, useEffect } from "react";
+import Link from 'next/link'
 
 let socket;
 
@@ -11,6 +12,7 @@ type Message = {
 export default function Home() {
 
   return (    
+    <>
     <section className="WorkSection WorkSection--fullBleed">
       <div className="Container">
         <div className="Grid">
@@ -23,14 +25,30 @@ export default function Home() {
               </p>
 
               <p>
-                <a href="twitter.html">1. Here's some work I did at Twitter</a
-                ><br />
-                <a href="microsoft.html"
-                  >2. And here's what I did at Microsoft</a
-                ><br />
-                <a href="storytelling.html"
-                  >3. I love to write and give talks</a
-                >
+              <Link href="/twitter">
+              <a>1. Here's some work I did at Twitter</a>
+                </Link>
+                
+                
+
+
+
+                <br />
+                
+                <Link href="/microsoft">
+                  <a>
+                  2. And here's what I did at Microsoft
+                    </a>
+                    </Link>
+
+                  
+                
+                <br />
+
+                <Link href="/storytelling">
+                <a>3. I love to write and give talks</a>
+                </Link>
+
 
                 <br /><br />
                 <b>Recent projects</b>
@@ -60,5 +78,6 @@ export default function Home() {
         </div>
       </div>
     </section>  
+    </>
   );
 }
