@@ -11,7 +11,7 @@ type Message = {
 export default function Home() {
 
   return (    
-    <section className="WorkSection WorkSection--fullBleed m-16">
+    <section className="WorkSection WorkSection--fullBleed">
       <div className="Container">
         <div className="Grid">
           <div className="Grid-cell u-md-width1of2">
@@ -51,8 +51,8 @@ export default function Home() {
                 >
               </p>
               <p>
-                My email is
-                <a href="mailto:jb@lot23.com">jb@lot23.com</a>. <br />Thanks for
+                My email is 
+                 <a href="mailto:jb@lot23.com" className="pl-1">jb@lot23.com</a>. <br />Thanks for
                 stopping by!
               </p>
             </div>
