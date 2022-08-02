@@ -11,7 +11,7 @@ type Message = {
 export default function Home() {
 
   return (    
-    <section className="WorkSection WorkSection--fullBleed" className="m-16">
+    <section className="WorkSection WorkSection--fullBleed m-16">
       <div className="Container">
         <div className="Grid">
           <div className="Grid-cell u-md-width1of2">
