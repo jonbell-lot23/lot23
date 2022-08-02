@@ -90,12 +90,7 @@ export default function Home() {
         <div className="Grid-cell u-md-width1of2">
           <div className="WorkSection-phone">
             <div className="WorkSection-phone-video">
-              <video preload="auto" autoPlay="" loop="" muted="">
-                {/* Note: these files aren't working: */}
-                {/* <source src="assets/ghostTweet.webm" type="video/webm" /> */}
-                <source src="assets/livePipeline_v2.mp4" type="video/mp4" />
-                Sorry, your browser doesn't support embedded videos.
-              </video>
+              
             </div>
             <div className="WorkSection-phone-bezel">!</div>
           </div>
