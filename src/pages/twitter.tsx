@@ -263,11 +263,7 @@ export default function Home() {
         alt="Default"
       />
       */}
-          <video
-            controls="true"
-            src="https://help.twitter.com/content/dam/help-twitter/en/guides/a-safer-twitter/demo-notification-1280x720.mp4"
-            style={{ maxWidth: "100%" }}
-          />
+          
         </div>
       </div>
     </div>
