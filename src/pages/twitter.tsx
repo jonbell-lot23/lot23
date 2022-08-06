@@ -13,9 +13,7 @@ export default function Home() {
   return (    
     <>
   <section
-    className="WorkSection WorkSection--fullBleed"
-    style={{ backgroundImage: 'url("assets/twitterSeattle.jpg")' }}
-  >
+    className="WorkSection WorkSection--fullBleed bg-[url('http://lot23.com/assets/twitterSeattle.jpg')]">
     <div className="Container">
       <div className="Grid">
         <div className="Grid-cell u-md-width1of2">
@@ -63,7 +61,10 @@ export default function Home() {
         <div className="Grid-cell u-md-width1of2">
           <div className="WorkSection-phone">
             <div className="WorkSection-phone-video">
-              
+            <video preload="auto" autoplay loop muted>
+                  <source src="assets/ghostTweet_v3.mp4" type="video/mp4" />
+                  Sorry, your browser doesn't support embedded videos.
+                </video>
             </div>
             <div className="WorkSection-phone-bezel">!</div>
           </div>
@@ -90,7 +91,10 @@ export default function Home() {
         <div className="Grid-cell u-md-width1of2">
           <div className="WorkSection-phone">
             <div className="WorkSection-phone-video">
-              
+              <video preload="auto" autoplay loop muted>
+                  <source src="assets/livePipeline_v2.mp4" type="video/mp4" />
+                  Sorry, your browser doesn't support embedded videos.
+              </video>
             </div>
             <div className="WorkSection-phone-bezel">!</div>
           </div>

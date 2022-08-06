@@ -12,10 +12,7 @@ export default function Home() {
 
   return (    
     <>
-    <section
-      className="WorkSection WorkSection--fullBleed"
-      style={{ backgroundImage: 'url("assets/microsoft.jpg")' }}
-    >
+    <section className="WorkSection WorkSection--fullBleed bg-[url('http://lot23.com/assets/microsoft.png')]">
       <div className="Container">
         <div className="Grid">
           <div className="Grid-cell u-md-width1of2">
