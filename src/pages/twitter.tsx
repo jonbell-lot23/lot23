@@ -61,7 +61,7 @@ export default function Home() {
         <div className="Grid-cell u-md-width1of2">
           <div className="WorkSection-phone">
             <div className="WorkSection-phone-video">
-            <video preload="auto" autoplay loop muted>
+            <video preload="auto" autoPlay loop muted>
                   <source src="assets/ghostTweet_v3.mp4" type="video/mp4" />
                   Sorry, your browser doesn't support embedded videos.
                 </video>
@@ -91,7 +91,7 @@ export default function Home() {
         <div className="Grid-cell u-md-width1of2">
           <div className="WorkSection-phone">
             <div className="WorkSection-phone-video">
-              <video preload="auto" autoplay loop muted>
+              <video preload="auto" autoPlay loop muted>
                   <source src="assets/livePipeline_v2.mp4" type="video/mp4" />
                   Sorry, your browser doesn't support embedded videos.
               </video>
