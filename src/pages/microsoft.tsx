@@ -164,6 +164,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+    </section>
+    {/* sucks at abuse divider */}
     {/*   
   <section class="WorkSection WorkSection--fullBleed" style="background-image: url('assets/suckAtAbuse.jpg');">
   
