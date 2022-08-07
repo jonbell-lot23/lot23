@@ -13,10 +13,10 @@ export default function Home() {
 
   return (    
     <>
-    <section className="WorkSection WorkSection--fullBleed">
-      <div className="Container">
-        <div className="Grid">
-          <div className="Grid-cell u-md-width1of2">
+    <section className="w-full mx-32 my-28">
+      <div>
+        <div>
+          <div className="w-1/2">
             <div className="WorkSection-content">
               <h3>Hello! <br />I'm Jon Bell.</h3>
               <p>
@@ -55,18 +55,21 @@ export default function Home() {
               </p>
 
               <p>
-                <a href="https://medium.com/near-future-field-notes"
-                  >1. Near Future Field Notes</a
+
+              <a href="http://replay.io"
+                  >1. Replay.io</a
+                ><br />
+
+                <a href="https://www.youtube.com/watch?v=apC8Dl9n5A4"
+                  >2. And Now the Good News</a
                 ><br />
 
                 <a href="http://uxlaunchpad.com/designexplosions/"
-                  >2. Design Explosions</a
+                  >3. Design Explosions</a
                 ><br />
 
-                <a
-                  href="https://medium.com/near-future-field-notes/8-beating-disinformation-2354f3c06261?source=collection_home---6------0-----------------------"
-                  >3. Beating Disinformation</a
-                >
+                
+               
               </p>
               <p>
                 My email is 
