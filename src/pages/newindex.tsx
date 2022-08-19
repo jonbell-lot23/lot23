@@ -1,86 +1,22 @@
-import io from "socket.io-client";
-import { useState, useEffect } from "react";
-import Link from 'next/link'
+const app = require('express')();
+const http = require('http').Server(app);
+const io = require('socket.io')(http);
+const port = process.env.PORT || 3000;
 
-let socket;
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + '/index.html');
+});
 
-type Message = {
-  author: string;
-  message: string;
-};
+io.on('connection', (socket) => {
+  socket.on('lightone', msg => {
+    io.emit('lightone', msg);
+  });
 
-export default function Home() {
+  socket.on('lighttwo', msg => {
+    io.emit('lighttwo', msg);
+  });
+});
 
-  return (    
-    <>
-    <section className="w-full mx-32 my-28">
-      <div>
-        <div>
-          <div className="w-1/2">
-            <div className="WorkSection-content">
-              <h3>Hello! <br />I'm Jon Bell.</h3>
-              <p>
-                I'm a product designer and I love to write, code, draw, teach,
-                lead teams, and learn new things.
-              </p>
-
-              <p>
-              <Link href="/twitter">
-              <a>1. Here's some work I did at Twitter</a>
-                </Link>
-                
-                
-
-
-
-                <br />
-                
-                <Link href="/microsoft">
-                  <a>
-                  2. And here's what I did at Microsoft
-                    </a>
-                    </Link>
-
-                  
-                
-                <br />
-
-                <Link href="/storytelling">
-                <a>3. I love to write and give talks</a>
-                </Link>
-
-
-                <br /><br />
-                <b>Recent projects</b>
-              </p>
-
-              <p>
-
-              <a href="http://replay.io"
-                  >1. Replay.io</a
-                ><br />
-
-                <a href="https://www.youtube.com/watch?v=apC8Dl9n5A4"
-                  >2. And Now the Good News</a
-                ><br />
-
-                <a href="http://uxlaunchpad.com/designexplosions/"
-                  >3. Design Explosions</a
-                ><br />
-
-                
-               
-              </p>
-              <p>
-                My email is 
-                 <a href="mailto:jb@lot23.com" className="pl-1">jb@lot23.com</a>. <br />Thanks for
-                stopping by!
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>  
-    </>
-  );
-}
+http.listen(port, () => {
+  console.log(`Socket.IO server running at http://localhost:${port}/`);
+});
