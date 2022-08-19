@@ -20,8 +20,8 @@ export default function Home() {
             <div className="WorkSection-content">
               <h3>Hello! <br />I'm Jon Bell.</h3>
               <p>
-                I'm a product designer and I love to write, code, draw,
-                lead teams, teach, and learn new things.
+                I'm a product designer and I love to write, code, draw, teach,
+                lead teams, and learn new things.
               </p>
 
               <p>

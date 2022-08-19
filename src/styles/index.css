@@ -4,3 +4,11 @@
 /* Your own custom component styles */
 
 @import 'tailwindcss/utilities';
+
+
+.header
+{
+    height: 29px;
+    width: 89px;
+    cursor: pointer;    
+}
