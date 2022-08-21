@@ -13,10 +13,10 @@ export default function Home() {
 
   return (    
     <>
-    <section className="w-full mx-32 my-28">
+    <section className="mx-0 my-28 sm:mx-32">
       <div>
         <div>
-          <div className="w-1/2">
+          <div className="w-full lg:w-1/2">
             <div className="WorkSection-content">
               <h3>Hello! <br />I'm Jon Bell.</h3>
               <p>
