@@ -29,8 +29,8 @@ export function Nav({page}) {
             src={img} 
             className="header" 
             layout="fill"
-            onMouseOver={e => e.currentTarget.src = {highlight}}
-            onMouseOut={e => e.currentTarget.src = {img}} />
+            onMouseOver={e => e.currentTarget.src = highlight}
+            onMouseOut={e => e.currentTarget.src = img} />
         </a></Link>
     )
 }
