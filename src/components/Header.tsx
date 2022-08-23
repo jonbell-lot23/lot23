@@ -11,7 +11,11 @@ export default function Header() {
     </div>
     );
  
-    return <div>{navitems}</div>;
+    return (
+        <div className="flex flex-wrap space-x-3">
+            {navitems}
+        </div>
+        );
  
 }
 
@@ -21,8 +25,6 @@ export function Nav({page}) {
     const img = `/${page}.png`
     const highlight = `${page}_highlight.png`.toString()
     
-    console.log(highlight);
- 
     return (
         <Link href={link}><a>
         <img
