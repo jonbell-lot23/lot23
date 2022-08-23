@@ -14,13 +14,13 @@ export default function Home() {
   return (    
     <div className="w-56 mx-auto mt-8 sm:w-80 sm:px-0">    
       <Header />
-      <Footer />
+      <Body />
     </div>
     
   );
 }
 
-export function Footer() {
+export function Body() {
   return (
     <div className="grid mt-12 place-items-center">
       <div>

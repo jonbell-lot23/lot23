@@ -1,6 +1,7 @@
 import io from "socket.io-client";
 import { useState, useEffect } from "react";
 import Link from 'next/link'
+import Header from '../components/Header.tsx'
 
 let socket;
 
@@ -18,17 +19,6 @@ export default function Home() {
     </div>
     
   );
-}
-
-export function Header() {
-  return (
-    <div className="flex flex-wrap space-x-3">
-       <Link href="/talks"><a><img src="/talks.png" className="header" onMouseOver={e => e.currentTarget.src = "talks_highlight.png"} onMouseOut={e => e.currentTarget.src = "talks.png"}/></a></Link>
-      <img src="/writing_highlight.png" className="header" />
-      <Link href="/projects"><a><img src="/projects.png" className="header" onMouseOver={e => e.currentTarget.src = "projects_highlight.png"} onMouseOut={e => e.currentTarget.src = "projects.png"}/></a></Link>
-      <Link href="/work"><a><img src="/work.png" className="header" onMouseOver={e => e.currentTarget.src = "work_highlight.png"} onMouseOut={e => e.currentTarget.src = "work.png"}/></a></Link>
-    </div>
-  )
 }
 
 

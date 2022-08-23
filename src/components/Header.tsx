@@ -3,7 +3,6 @@ import Image from 'next/image'
 import { useRouter } from 'next/router'
 
 export default function Header() {
-
     const pages = ["talks", "writing", "projects", "work"];
     const navitems = pages.map(page => 
     <div>
@@ -11,20 +10,18 @@ export default function Header() {
     </div>
     );
  
-    return (
-        <div className="flex flex-wrap space-x-3">
-            {navitems}
-        </div>
-        );
- 
+    return (<div className="flex flex-wrap space-x-3">{navitems}</div>); 
 }
 
 export function Nav({page}) { 
 
+    const router = useRouter()
+    const currentPath = router.asPath;
     const link = `/${page}`
-    const img = `/${page}.png`
-    const highlight = `${page}_highlight.png`.toString()
     
+    const img = currentPath == link ? `/${page}_highlight.png` : `/${page}.png`
+    const highlight = `${page}_highlight.png`.toString()
+
     return (
         <Link href={link}><a>
         <img
