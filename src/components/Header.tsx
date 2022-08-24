@@ -27,7 +27,6 @@ export function Nav({page}) {
         <img
             src={img} 
             className="header" 
-            layout="fill"
             onMouseOver={e => e.currentTarget.src = highlight}
             onMouseOut={e => e.currentTarget.src = img} />
         </a></Link>
