@@ -1,6 +1,6 @@
 import io from "socket.io-client";
 import { useState, useEffect } from "react";
-import Header from '../components/Header.tsx'
+import Header from '../components/Header.js'
 
 let socket;
 
