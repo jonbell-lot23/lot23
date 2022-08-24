@@ -28,25 +28,32 @@ export default function Home() {
 
 export function Body() {
   return (
-    <div className="grid mt-12 place-items-center">
+    
+    <section
+      className="mt-8 bg-blue-50 WorkSection WorkSection--fullBleed">
+
       <div>
-        <h2 className="text-lg">My Design Trilogy</h2>
+        <h2 className="mt-2 mb-0 text-lg">My Design Trilogy</h2>
         
         <div className="flex space-x-3">
-          <div className="w-48 h-64 bg-gray-100">book</div>
-          <div className="w-48 h-64 bg-gray-100">book</div>
-          <div className="w-48 h-64 bg-gray-100">book</div>
+          <div className="w-48"><img src="/book1.png" /></div>
+          <div className="w-48"><img src="/book2.png" /></div>
+          <div className="w-48"><img src="/book3.png" /></div>
         </div>
 
-        <h2 className="mt-12 text-lg">Other books</h2>
+        <h2 className="mt-4 mb-0 text-lg">Other books</h2>
         
         <div className="flex space-x-3">
-          <div className="w-48 h-64 bg-gray-100">Bedtime stories</div>
-          <div className="w-48 h-64 bg-gray-100">Plebe volume one</div>
-          <div className="w-48 h-64 bg-gray-100">42 and 21</div>
+        <div className="w-48"><img src="/bedtime.png" /></div>
+        <div className="w-48"><img src="/42and21.png" /></div>
+        <div className="w-48"><img src="/plebe.png" /></div>
         </div>
 
+    
       </div>
-    </div>
+    </section>
+
+    
+      
     )
   }

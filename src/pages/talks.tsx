@@ -4,11 +4,14 @@ import Link from 'next/link'
 import Header from '../components/Header.js'
 
 export default function Home() {
-  return (    
+  return (   
+    <>
     <div className="w-56 mx-auto mt-8 sm:w-80 sm:px-0">    
       <Header />
-      <Body />
     </div>    
+
+    <Body />
+    </> 
   );
 }
 
@@ -57,9 +60,6 @@ export function Body() {
     }      
   ]
   
-  
-  
-  
 
   const children = talks.map(talk => 
     <div>
@@ -73,7 +73,23 @@ export function Body() {
         />
     </div>
     ); 
-    return (<div className="mt-12">{children}</div>); 
+    return (
+      <section
+      className="mt-8 WorkSection WorkSection--fullBleed bg-[url('/space.png')]">
+      <div className="Container">
+        <div className="Grid">
+          <div className="Grid-cell u-md-width1of2">
+            <div className="rounded-md WorkSection-content ">
+              <h3>Talks</h3>
+              <p>
+                {children}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    ); 
   }
 
 

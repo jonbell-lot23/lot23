@@ -26,11 +26,9 @@ export default function Home() {
 
 export function Body() {
   return (
-    <div className="grid mt-12 place-items-center">
-      <div>
-    
+    <>
   <section
-    className="WorkSection WorkSection--fullBleed bg-[url('http://lot23.com/assets/twitterSeattle.jpg')]">
+    className="mt-8 WorkSection WorkSection--fullBleed bg-[url('http://lot23.com/assets/twitterSeattle.jpg')]">
     <div className="Container">
       <div className="Grid">
         <div className="Grid-cell u-md-width1of2">
@@ -544,9 +542,6 @@ export function Body() {
         </div>
       </div>
     </section>
-
-    
-      </div>
-    </div>
+   </> 
     )
   }
