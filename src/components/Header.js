@@ -9,8 +9,11 @@ export default function Header() {
        <Nav page={page} />
     </div>
     );
- 
-    return (<div className="flex flex-wrap space-x-3">{navitems}</div>); 
+    
+    return (
+    <div className="w-56 mx-auto mt-8 sm:w-80 sm:px-0">
+        <div className="flex flex-wrap space-x-3">{navitems}</div>
+    </div>); 
 }
 
 export function Nav({page}) { 

@@ -2,6 +2,7 @@ import io from "socket.io-client";
 import { useState, useEffect } from "react";
 import Link from 'next/link'
 import Header from '../components/Header.js'
+import Head from 'next/head'
 
 let socket;
 
@@ -13,14 +14,25 @@ type Message = {
 export default function Home() {
 
   return (   
-    <div>
-    <div className="w-56 mx-auto mt-8 sm:w-80 sm:px-0">    
-      <Header />
-    </div>
-    
+    <>
+    <Head>
+    <div className="hidden">
+        <Image src="/talks.png" layout="fill" />
+        <Image src="/talks_highlight.png" layout="fill" />
 
+        <Image src="/writing.png" layout="fill" />
+        <Image src="/writing_highlight.png" layout="fill" />
+
+        <Image src="/work.png" layout="fill" />
+        <Image src="/work_highlight.png" layout="fill" />
+
+        <Image src="/projects.png" layout="fill" />
+        <Image src="/projects_highlight.png" layout="fill" />
+      </div>
+    </Head>
+    <Header />
     <Body />
-    </div> 
+    </> 
   );
 }
 
