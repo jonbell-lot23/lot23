@@ -17,17 +17,17 @@ export default function Home() {
     <>
     <Head>
     <div className="hidden">
-        <Image src="/talks.png" layout="fill" />
-        <Image src="/talks_highlight.png" layout="fill" />
+        <img src="/talks.png" />
+        <img src="/talks_highlight.png" />
 
-        <Image src="/writing.png" layout="fill" />
-        <Image src="/writing_highlight.png" layout="fill" />
+        <img src="/writing.png" />
+        <img src="/writing_highlight.png" />
 
-        <Image src="/work.png" layout="fill" />
-        <Image src="/work_highlight.png" layout="fill" />
+        <img src="/work.png" />
+        <img src="/work_highlight.png" />
 
-        <Image src="/projects.png" layout="fill" />
-        <Image src="/projects_highlight.png" layout="fill" />
+        <img src="/projects.png" />
+        <img src="/projects_highlight.png" />
       </div>
     </Head>
     <Header />
