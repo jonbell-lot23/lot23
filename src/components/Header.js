@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { useRouter } from 'next/router'
 
 export default function Header() {
-    const pages = ["talks", "writing", "projects", "work"];
+    const pages = ["talks", "writing", "work", "projects"];
     const navitems = pages.map(page => 
     <div>
        <Nav page={page} />

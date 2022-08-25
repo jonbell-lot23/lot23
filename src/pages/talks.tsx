@@ -74,20 +74,18 @@ export function Body() {
     </div>
     ); 
     return (
-      <section
-      className="mt-8 WorkSection WorkSection--fullBleed bg-[url('/space.png')]">
-      <div className="Container">
-        <div className="Grid">
-          <div className="Grid-cell u-md-width1of2">
-            <div className="rounded-md WorkSection-content ">
-              <h3>Talks</h3>
-              <p>
-                {children}
-              </p>
-            </div>
-          </div>
+      <section className="flex justify-center w-screen h-screen pt-8 mx-auto mt-8 bg-blue-50">
+
+      <div className="justify-center w-1/2">        
+        <div className="p-2 mb-6">              
+              <img src="/goodnews.png" className="w-full rounded-md" />
         </div>
+        <div className="grid mt-4 gap-x-4 gap-y-8 sm:grid-cols-1 sm:gap-x-6 sm:m-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 xl:gap-x-8">              
+              <img src="/abuse.png" className="w-full rounded-md" />
+              <img src="/greatdesign.png" className="w-full rounded-md" />
+        </div>        
       </div>
+
     </section>
     ); 
   }

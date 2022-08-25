@@ -1056,8 +1056,8 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding-top: 4.5rem;
-    padding-bottom: 4.5rem; }
+ 
+  }
     @media print, (min-width: 768px) {
       .WorkSection {
         min-height: 100vh; }

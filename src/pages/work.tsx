@@ -27,6 +27,76 @@ export default function Home() {
 export function Body() {
   return (
     <>
+    <section className="flex justify-center w-screen pt-8 mx-auto mt-8 bg-blue-50 py-96">
+
+<div className="justify-center w-1/2">
+              
+  <div className="flex">                      
+        <div className="w-1/3">       
+        <div className="WorkSection-phone">
+            <div className="WorkSection-phone-video">
+            <video preload="auto" autoPlay loop muted>
+                  <source src="assets/ghostTweet_v3.mp4" type="video/mp4" />
+                  Sorry, your browser doesn't support embedded videos.
+                </video>
+            </div>
+            <div className="WorkSection-phone-bezel">!</div>
+          </div>
+       
+        </div>
+        <div className="flex items-center w-2/3 px-8 py-4">
+          <div>
+        <h3 className="text-xl">Tweet Submission Flow</h3>
+            <p>
+              Posting a tweet is deceptively complex! What happens it takes a
+              long time because of spotty bandwidth? What if something goes
+              wrong? What should happen if someone is in airplane mode? The old
+              system was causing all sorts of problems, so I was asked to
+              redesign it.
+            </p>
+            </div>
+        </div>       
+  </div>   
+ 
+  
+  <div className="flex">       
+
+        <div className="flex items-center w-2/3 px-8 py-4">
+          <div>
+          <h3 className="text-xl">Live Pipeline</h3>
+            <p>
+              Twitter’s slogan is “What’s Happening?” yet Twitter’s interface
+              has historically felt static and unchanging. I designed some
+              subtle animations to bring a feeling of vibrancy to actions
+              happening on the platform, and over a year later it shipped! It
+              took a rewrite of a lot of fundamental logic in the system, and
+              immediately made a positive impact.
+            </p>
+            </div>
+        </div>     
+
+        <div className="w-1/3">       
+        <div className="WorkSection-phone">
+            <div className="WorkSection-phone-video">
+            <video preload="auto" autoPlay loop muted>
+                  <source src="assets/livePipeline_v2.mp4" type="video/mp4" />
+                  Sorry, your browser doesn't support embedded videos.
+                </video>
+            </div>
+            <div className="WorkSection-phone-bezel">!</div>
+          </div>
+       
+        </div>
+          
+  </div>  
+
+
+
+
+</div>
+
+</section>
+
   <section
     className="mt-8 WorkSection WorkSection--fullBleed bg-[url('http://lot23.com/assets/twitterSeattle.jpg')]">
     <div className="Container">

@@ -29,31 +29,27 @@ export default function Home() {
 export function Body() {
   return (
     
-    <section
-      className="mt-8 bg-blue-50 WorkSection WorkSection--fullBleed">
 
-      <div>
-        <h2 className="mt-2 mb-0 text-lg">My Design Trilogy</h2>
-        
-        <div className="flex space-x-3">
-          <div className="w-48"><img src="/book1.png" /></div>
-          <div className="w-48"><img src="/book2.png" /></div>
-          <div className="w-48"><img src="/book3.png" /></div>
-        </div>
+    <section className="flex justify-center w-screen pt-8 mx-auto mt-8 bg-blue-50 py-96">
 
-        <h2 className="mt-4 mb-0 text-lg">Other books</h2>
-        
-        <div className="flex space-x-3">
-        <div className="w-48"><img src="/bedtime.png" /></div>
-        <div className="w-48"><img src="/42and21.png" /></div>
-        <div className="w-48"><img src="/plebe.png" /></div>
-        </div>
+      <div className="justify-center w-1/2">                
+        <div className="grid mt-4 gap-x-4 gap-y-8 sm:grid-cols-1 sm:gap-x-6 sm:m-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">              
+              <img src="/book1.png" className="w-full rounded-md" />
+              <img src="/book2.png" className="w-full rounded-md" />
+              <img src="/book3.png" className="w-full rounded-md" />
+        </div>   
+<br />
+        <div className="grid mt-8 gap-x-4 gap-y-8 sm:grid-cols-1 sm:gap-x-6 sm:m-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">              
+              <img src="/bedtime.png" className="w-full rounded-md" />
+              <img src="/42and21.png" className="w-full rounded-md" />
+              <img src="/plebe.png" className="w-full rounded-md" />
+        </div>   
 
-    
       </div>
-    </section>
 
-    
-      
+    </section>
+  
     )
   }
+
+
