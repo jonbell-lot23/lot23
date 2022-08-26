@@ -10,18 +10,26 @@ export default function Home() {
     <>
     <Head>
     <div className="hidden">
-        <img src="/talks.png" />
-        <img src="/talks_highlight.png" />
+      <img src="/talks.png" />
+      <img src="/talks_highlight.png" />
+      <img src="/writing.png" />
+      <img src="/writing_highlight.png" />
+      <img src="/work.png" />
+      <img src="/work_highlight.png" />
+      <img src="/projects.png" />
+      <img src="/projects_highlight.png" />
 
-        <img src="/writing.png" />
-        <img src="/writing_highlight.png" />
+      <img src="/goodnews.png" />
+      <img src="/abuse.png" />
+      <img src="/greatdesign.png" />
 
-        <img src="/work.png" />
-        <img src="/work_highlight.png" />
-
-        <img src="/projects.png" />
-        <img src="/projects_highlight.png" />
-      </div>
+      <img src="/book1.png" />
+      <img src="/book2.png" />
+      <img src="/book3.png" />
+      <img src="/bedtime.png" />
+      <img src="/42and21.png" />
+      <img src="/plebe.png" />          
+    </div>
     </Head>
     <Header />
     <Body />
@@ -88,14 +96,14 @@ export function Body() {
     </div>
     ); 
     return (
-    <section className="flex justify-center w-screen pt-8 mx-auto mt-8 bg-blue-50 py-96">
+    <section className="flex justify-center w-screen pt-8 mx-auto mt-8 text-md bg-blue-50 py-96">
       
       <div className="justify-center w-1/2 p-2"> 
       <div className="p-2">     
 
           <div className="flex">
-            <div className="font-bold grow">UXNZ <span className="font-light text-gray-500">Wellington</span></div>
-            <div className="items-end font-light font-medium text-gray-500">2020</div>
+            <div className="font-bold grow">UXNZ <span className="font-light text-gray-500">2020</span></div>
+            <div className="items-end font-light font-medium text-gray-500">Wellington</div>
           </div>
 
           <div className="mb-0">              
@@ -103,35 +111,36 @@ export function Body() {
           </div>
           
           
-          <p className="pt-2 font-light">
+          <div className="pt-2 font-light text-md">
             Designers are taught to figure out what the
             data says, try something, then iterate. 
             It turns out this works really well, even at scale!
-          </p>
+          </div>
       </div>
       <div className=""> 
           <div className="grid mt-4 gap-x-4 gap-y-8 sm:grid-cols-1 sm:gap-x-6 sm:m-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 xl:gap-x-8">              
                 
                 <div>
                 <div className="flex">
-                  <div className="font-bold grow">IXDA <span className="font-light text-gray-500">Seattle</span></div>
-                  <div className="items-end font-light font-medium text-gray-500">2019</div>
+                  <div className="font-bold grow">IXDA <span className="font-light text-gray-500">2019</span></div>
+                  <div className="items-end font-light font-medium text-gray-500">Seattle</div>
                 </div>
                 <img src="/abuse.png" className="w-full rounded-md" />
-                <p className="pt-2 font-light">
+                <div className="pt-2 font-light text-md">
                   Tough lessons learned leading the abuse design team at Twitter.
-                </p>
+                </div>
                 </div>
 
                 <div>
                 <div className="flex">
-                  <div className="font-bold grow">SxSW <span className="font-light text-gray-500">Austin</span></div>
-                  <div className="items-end font-light font-medium text-gray-500">2013</div>
+                  <div className="font-bold grow">SxSW <span className="font-light text-gray-500">2013</span></div>
+                  <div className="items-end font-light font-medium text-gray-500">Austin</div>
                 </div>
                 <img src="/greatdesign.png" className="w-full rounded-md" />
-                <p className="pt-2 font-light">The best design doesn't always win.
-                Here's what to do about it.
-                </p>
+                <div className="pt-2 font-light text-md">
+                  Great design doesn't always speak for itself,
+                  and here's here's what to do about it!
+                </div>
                 </div>
           </div>
         </div>

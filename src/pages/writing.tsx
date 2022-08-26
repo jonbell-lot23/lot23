@@ -17,18 +17,26 @@ export default function Home() {
     <>
     <Head>
     <div className="hidden">
-        <img src="/talks.png" />
-        <img src="/talks_highlight.png" />
+      <img src="/talks.png" />
+      <img src="/talks_highlight.png" />
+      <img src="/writing.png" />
+      <img src="/writing_highlight.png" />
+      <img src="/work.png" />
+      <img src="/work_highlight.png" />
+      <img src="/projects.png" />
+      <img src="/projects_highlight.png" />
 
-        <img src="/writing.png" />
-        <img src="/writing_highlight.png" />
+      <img src="/goodnews.png" />
+      <img src="/abuse.png" />
+      <img src="/greatdesign.png" />
 
-        <img src="/work.png" />
-        <img src="/work_highlight.png" />
-
-        <img src="/projects.png" />
-        <img src="/projects_highlight.png" />
-      </div>
+      <img src="/book1.png" />
+      <img src="/book2.png" />
+      <img src="/book3.png" />
+      <img src="/bedtime.png" />
+      <img src="/42and21.png" />
+      <img src="/plebe.png" />          
+    </div>
     </Head>
     <Header />
     <Body />
