@@ -88,18 +88,54 @@ export function Body() {
     </div>
     ); 
     return (
-      <section className="flex justify-center w-screen h-screen pt-8 mx-auto mt-8 bg-blue-50">
+    <section className="flex justify-center w-screen pt-8 mx-auto mt-8 bg-blue-50 py-96">
+      
+      <div className="justify-center w-1/2 p-2"> 
+      <div className="p-2">     
 
-      <div className="justify-center w-1/2">        
-        <div className="p-2 mb-6">              
-              <img src="/goodnews.png" className="w-full rounded-md" />
-        </div>
-        <div className="grid mt-4 gap-x-4 gap-y-8 sm:grid-cols-1 sm:gap-x-6 sm:m-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 xl:gap-x-8">              
-              <img src="/abuse.png" className="w-full rounded-md" />
-              <img src="/greatdesign.png" className="w-full rounded-md" />
-        </div>        
+          <div className="flex">
+            <div className="font-bold grow">UXNZ <span className="font-light text-gray-500">Wellington</span></div>
+            <div className="items-end font-light font-medium text-gray-500">2020</div>
+          </div>
+
+          <div className="mb-0">              
+                <img src="/goodnews.png" className="w-full rounded-md" />
+          </div>
+          
+          
+          <p className="pt-2 font-light">
+            Designers are taught to figure out what the
+            data says, try something, then iterate. 
+            It turns out this works really well, even at scale!
+          </p>
       </div>
+      <div className=""> 
+          <div className="grid mt-4 gap-x-4 gap-y-8 sm:grid-cols-1 sm:gap-x-6 sm:m-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 xl:gap-x-8">              
+                
+                <div>
+                <div className="flex">
+                  <div className="font-bold grow">IXDA <span className="font-light text-gray-500">Seattle</span></div>
+                  <div className="items-end font-light font-medium text-gray-500">2019</div>
+                </div>
+                <img src="/abuse.png" className="w-full rounded-md" />
+                <p className="pt-2 font-light">
+                  Tough lessons learned leading the abuse design team at Twitter.
+                </p>
+                </div>
 
+                <div>
+                <div className="flex">
+                  <div className="font-bold grow">SxSW <span className="font-light text-gray-500">Austin</span></div>
+                  <div className="items-end font-light font-medium text-gray-500">2013</div>
+                </div>
+                <img src="/greatdesign.png" className="w-full rounded-md" />
+                <p className="pt-2 font-light">The best design doesn't always win.
+                Here's what to do about it.
+                </p>
+                </div>
+          </div>
+        </div>
+      </div>
     </section>
     ); 
   }
