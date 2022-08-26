@@ -265,11 +265,10 @@ export default function Home() {
           </div>
         </div>
         <div className="Grid-cell u-md-width1of2">
-          {/*<img
-        src="assets/twitterAndroid.png"
-        alt="Default"
-      />
-      */}
+        <video preload="auto" autoPlay loop muted>
+                  <source src="https://help.twitter.com/content/dam/help-twitter/en/guides/a-safer-twitter/demo-notification-1280x720.mp4" type="video/mp4" />
+                  Sorry, your browser doesn't support embedded videos.
+                </video>
           
         </div>
       </div>
