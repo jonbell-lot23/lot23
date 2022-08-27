@@ -98,7 +98,7 @@ export function Body() {
     return (
     <section className="flex justify-center w-screen pt-8 mx-auto mt-8 text-md bg-blue-50 py-96">
       
-      <div className="justify-center w-1/2 p-2"> 
+      <div className="justify-center w-full p-2 sm:w-1/2"> 
       <div className="p-2">     
 
           <div className="flex">

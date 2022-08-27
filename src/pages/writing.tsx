@@ -52,7 +52,7 @@ export function Body() {
 
     <section className="flex justify-center w-screen pt-8 mx-auto mt-8 bg-blue-50 py-96">
 
-      <div className="justify-center w-1/2">                
+    <div className="justify-center w-full p-2 sm:w-1/2">              
         <div className="grid mt-4 gap-x-4 gap-y-8 sm:grid-cols-1 sm:gap-x-6 sm:m-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">              
               
               <div>
@@ -62,7 +62,7 @@ export function Body() {
 
               <div>
                 <img src="/book2.png" className="w-full rounded-md" />
-                <div className="pt-2">Book two was about listening well and leading teams.</div>
+                <div className="pt-2">Book is was about listening well and leading teams.</div>
               </div> 
 
               <div>

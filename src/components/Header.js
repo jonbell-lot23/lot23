@@ -11,8 +11,8 @@ export default function Header() {
     );
     
     return (
-    <div className="w-56 mx-auto mt-8 sm:w-80 sm:px-0">
-        <div className="flex flex-wrap space-x-3">{navitems}</div>
+    <div className="w-full px-4 mx-auto mt-8 sm:w-80 sm:px-0">
+        <div className="flex flex-wrap space-x-0">{navitems}</div>
     </div>); 
 }
 

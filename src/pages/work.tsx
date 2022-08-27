@@ -54,12 +54,12 @@ export function Body() {
 
   
   
-  <div className="justify-center w-3/5">
+  <div className="justify-center w-full p-2 sm:w-3/5">   
 
 
   <h2 className="text-3xl">About</h2>
 
-  <div className="w-2/5 mb-24">
+  <div className="w-full mb-24 sm:w-2/5">
     Here is where I would write some sort of summary of my work.    
   </div>
 
@@ -68,23 +68,7 @@ export function Body() {
   <h2 className="text-3xl">Twitter</h2>
 
 
-  <div className="w-full">                      
-        <div className="w-full">
-          
-          <video preload="auto" autoPlay loop muted>
-                  <source src="https://help.twitter.com/content/dam/help-twitter/en/guides/a-safer-twitter/demo-notification-1280x720.mp4" type="video/mp4" />
-                  Sorry, your browser doesn't support embedded videos.
-                </video>
-          <p className="p-8 text-md">
-          <h3 className="mb-3 text-xl">Safety Center</h3>   
-              We knew from the data that most abuse happened in people’s
-              notifications, so we felt strongly that we’d need to provide as
-              many filtering options as possible to return control to them. This
-              was one of those features that most people don’t need, but the
-              people who do need it consider it essential.
-            </p>
-        </div>           
-  </div>
+
 
 
 
@@ -93,7 +77,7 @@ export function Body() {
         <div className="w-full">
             
           <img src="assets/hidereplies.png" alt="Default" />
-          <p className="p-8 text-md">
+          <p className="p-0 pt-2 sm:p-8 sm:pt-4 text-md">
           <h3 className="mb-0 text-xl">Hide Replies</h3> 
           In a 2016 brainstorm, my PM asked me why people couldn’t hide 
           replies to their own Tweets as a way to reduce harassment and abuse. 
@@ -106,9 +90,27 @@ export function Body() {
   </div> 
 
 
+  <div className="w-full">                      
+        <div className="w-full px-8">
+          
+          <video preload="auto" autoPlay loop muted>
+                  <source src="https://help.twitter.com/content/dam/help-twitter/en/guides/a-safer-twitter/demo-notification-1280x720.mp4" type="video/mp4" />
+                  Sorry, your browser doesn't support embedded videos.
+                </video>
+          <p className="p-0 pt-2 sm:pt-4 text-md">
+          <h3 className="mb-3 text-xl">Safety Center</h3>   
+              We knew from the data that most abuse happened in people’s
+              notifications, so we felt strongly that we’d need to provide as
+              many filtering options as possible to return control to them. This
+              was one of those features that most people don’t need, but the
+              people who do need it consider it essential.
+            </p>
+        </div>           
+  </div>
+  
 
-  <div className="flex">                      
-        <div className="w-1/2">       
+  <div className="flex-none sm:flex">                      
+        <div className="w-full">       
         <div className="WorkSection-phone">
             <div className="WorkSection-phone-video">
             <video preload="auto" autoPlay loop muted>
@@ -120,7 +122,7 @@ export function Body() {
           </div>
        
         </div>
-        <div className="flex items-center w-1/2 px-8 py-4">
+        <div className="flex items-center w-full px-2 py-4 sm:px-8">
           <div>
         <h3 className="text-xl">Tweet Submission Flow</h3>
             <p>
@@ -135,9 +137,9 @@ export function Body() {
   </div>   
  
   
-  <div className="flex">       
+  <div className="flex-none sm:flex">     
 
-        <div className="flex items-center w-1/2 px-8 py-4">
+        <div className="flex items-center w-full px-2 py-4 sm:px-8 sm:w-1/2">
           <div>
           <h3 className="text-xl">Live Pipeline</h3>
             <p>
@@ -151,7 +153,7 @@ export function Body() {
             </div>
         </div>     
 
-        <div className="w-1/2">       
+        <div className="w-full sm:w-1/2">       
         <div className="WorkSection-phone">
             <div className="WorkSection-phone-video">
             <video preload="auto" autoPlay loop muted>
@@ -166,12 +168,12 @@ export function Body() {
           
   </div>  
 
-  <div className="flex">                              
-        <div className="w-3/5">       
+  <div className="flex-none sm:flex">                            
+        <div className="w-full sm:w-3/5">       
           <img src="assets/twitterAndroid.png" />
         </div>  
 
-        <div className="flex items-center w-2/5 px-8 py-4">
+        <div className="flex items-center w-full px-2 py-4 sm:px-8 sm:w-2/5">
           <div>
         <h3 className="text-xl">Twitter for Android</h3>
               <p>
@@ -192,7 +194,7 @@ export function Body() {
         <div className="w-full">
             
           <img src="assets/twitterWindows.png" alt="Default" />
-          <p className="p-8 text-md">
+          <p className="p-0 pt-2 sm:p-8 sm:pt-4 text-md">
           <h3 className="mb-0 text-xl">Twitter for Windows</h3> 
               Microsoft wanted to ship Twitter by default in Windows 10’s Start
               Screen, so I spent several months designing the best way to take a
@@ -206,13 +208,13 @@ export function Body() {
 
   <h2 className="text-3xl">Microsoft</h2>
 
-  <div className="flex">                      
+  <div className="flex-none sm:flex">                  
         
-        <div className="w-3/5">       
+        <div className="w-full sm:w-3/5">       
           <img src="assets/email.png" />
         </div>  
 
-        <div className="flex items-center w-2/5 px-8 py-4">
+        <div className="flex items-center w-full px-2 py-4 sm:px-8 sm:w-2/5">
           <div>
         <h3 className="text-xl">Windows Phone Email</h3>
               <p>
@@ -226,11 +228,11 @@ export function Body() {
         </div>       
   </div>   
 
-  <div className="flex">                      
+  <div className="flex-none sm:flex">                     
         
         
 
-        <div className="flex items-center w-2/5 px-8 py-4">
+        <div className="flex items-center w-full px-2 py-4 sm:px-8 sm:w-2/5"> 
           <div>
         <h3 className="text-xl">Windows Phone Calendar</h3>
         <p>
@@ -244,18 +246,18 @@ export function Body() {
             </div>
         </div>  
 
-        <div className="w-3/5">       
+        <div className="w-full sm:w-3/5">       
           <img src="assets/calendar.png" />
         </div>  
              
   </div>   
 
-  <div className="flex">                              
-        <div className="w-3/5">       
+  <div className="flex-none sm:flex">                           
+        <div className="w-full sm:w-3/5">       
           <img src="assets/text.png" />
         </div>  
 
-        <div className="flex items-center w-2/5 px-8 py-4">
+        <div className="flex items-center w-full px-2 py-4 sm:px-8 sm:w-2/5">
           <div>
         <h3 className="text-xl">Windows Phone Messaging</h3>
               <p>
@@ -269,8 +271,8 @@ export function Body() {
         </div>       
   </div>   
 
-  <div className="flex">                                    
-        <div className="flex items-center w-2/5 px-8 py-4">
+  <div className="flex-none sm:flex">                                
+        <div className="flex items-center w-full px-2 py-4 sm:px-8 sm:w-2/5">
           <div>
         <h3 className="text-xl">Third Party Apps</h3>
               <p>
@@ -285,19 +287,19 @@ export function Body() {
             </div>
         </div>    
 
-        <div className="w-3/5">       
+        <div className="w-full sm:w-3/5">       
           <img src="assets/thirdparty.png" />
         </div>            
   </div>   
   
 
-  <div className="flex">                                    
+  <div className="flex-none sm:flex">   
         
-  <div className="w-1/2">       
+  <div className="w-full sm:w-1/2">       
           <img src="assets/owpx.png" />
         </div>  
         
-        <div className="flex items-center w-1/2 px-8 py-4">
+        <div className="flex items-center w-full px-2 py-4 sm:px-8 sm:w-1/2">
         
         
         <div>
