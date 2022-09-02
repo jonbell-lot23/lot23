@@ -48,14 +48,14 @@ export default function Home() {
 export function Body() {
   return (
     <div className="grid mt-48 place-items-center">
-      <div className="text-center">
+      <div className="text-left">
       <p className="font-semibold">Hello! I'm Jon Bell.</p>
-              <p>
+              <p className="text-md">
                 I'm a product designer that loves to write, code, draw, teach,
                 lead teams, and learn new things.
               </p>
 
-              <p>
+              <p className="text-md">
                 My email is 
                  <a href="mailto:jb@lot23.com" className="pl-1">jb@lot23.com</a>. <br />Thanks for
                 stopping by!

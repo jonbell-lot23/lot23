@@ -57,15 +57,16 @@ export function Body() {
   <div className="justify-center w-full p-2 sm:w-3/5">   
 
 
-  <h2 className="text-3xl">About</h2>
+  <div className="py-0 pl-0 my-0 text-xl font-medium sm:text-md">About</div>
 
-  <div className="w-full mb-24 sm:w-2/5">
-    Here is where I would write some sort of summary of my work.    
+  <div className="w-full mb-24 sm:w-3/5">
+    I've worked at Twitter, Microsoft, frog design, and now I'm building a time traveling debugger at Replay.io. This is a selection
+    of my work.  
   </div>
 
 
 
-  <h2 className="text-3xl">Twitter</h2>
+  <div className="py-0 pl-0 my-0 text-xl font-medium sm:pl-2 sm:text-md">Twitter</div>
 
 
 
@@ -73,7 +74,7 @@ export function Body() {
 
 
 
-  <div className="w-full">                      
+  <div className="w-full mb-48">                      
         <div className="w-full">
             
           <img src="assets/hidereplies.png" alt="Default" />
@@ -90,7 +91,7 @@ export function Body() {
   </div> 
 
 
-  <div className="w-full">                      
+  <div className="w-full mb-48">                                          
         <div className="w-full px-8">
           
           <video preload="auto" autoPlay loop muted>
@@ -109,7 +110,7 @@ export function Body() {
   </div>
   
 
-  <div className="flex-none sm:flex">                      
+  <div className="flex-none mb-48 sm:flex">                      
         <div className="w-full">       
         <div className="WorkSection-phone">
             <div className="WorkSection-phone-video">
@@ -137,9 +138,9 @@ export function Body() {
   </div>   
  
   
-  <div className="flex-none sm:flex">     
+  <div className="flex-none mb-48 sm:flex">     
 
-        <div className="flex items-center w-full px-2 py-4 sm:px-8 sm:w-1/2">
+        <div className="flex items-center w-full px-2 py-4 sm:px-8 sm:w-1/2 ">
           <div>
           <h3 className="text-xl">Live Pipeline</h3>
             <p>
@@ -168,7 +169,7 @@ export function Body() {
           
   </div>  
 
-  <div className="flex-none sm:flex">                            
+  <div className="flex-none mb-24 sm:flex">                            
         <div className="w-full sm:w-3/5">       
           <img src="assets/twitterAndroid.png" />
         </div>  
@@ -190,11 +191,11 @@ export function Body() {
 
   
 
-  <div className="w-full">                      
+  <div className="w-full mb-24">                      
         <div className="w-full">
             
           <img src="assets/twitterWindows.png" alt="Default" />
-          <p className="p-0 pt-2 sm:p-8 sm:pt-4 text-md">
+          <p className="p-0 pt-2 sm:p-1 sm:pt-4 text-md">
           <h3 className="mb-0 text-xl">Twitter for Windows</h3> 
               Microsoft wanted to ship Twitter by default in Windows 10’s Start
               Screen, so I spent several months designing the best way to take a
@@ -208,7 +209,7 @@ export function Body() {
 
   <h2 className="text-3xl">Microsoft</h2>
 
-  <div className="flex-none sm:flex">                  
+  <div className="flex-none mb-24 sm:flex">                  
         
         <div className="w-full sm:w-3/5">       
           <img src="assets/email.png" />
@@ -228,7 +229,7 @@ export function Body() {
         </div>       
   </div>   
 
-  <div className="flex-none sm:flex">                     
+  <div className="flex-none mb-24 sm:flex">                     
         
         
 
@@ -252,7 +253,7 @@ export function Body() {
              
   </div>   
 
-  <div className="flex-none sm:flex">                           
+  <div className="flex-none mb-24 sm:flex">                           
         <div className="w-full sm:w-3/5">       
           <img src="assets/text.png" />
         </div>  
@@ -271,7 +272,7 @@ export function Body() {
         </div>       
   </div>   
 
-  <div className="flex-none sm:flex">                                
+  <div className="flex-none mb-24 sm:flex">                                
         <div className="flex items-center w-full px-2 py-4 sm:px-8 sm:w-2/5">
           <div>
         <h3 className="text-xl">Third Party Apps</h3>

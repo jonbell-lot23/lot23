@@ -99,7 +99,7 @@ export function Body() {
     <section className="flex justify-center w-screen pt-8 mx-auto mt-8 text-md bg-blue-50 py-96">
       
       <div className="justify-center w-full p-2 sm:w-1/2"> 
-      <div className="p-2">     
+      <div className="p-0 sm:p-2">     
 
           <div className="flex">
             <div className="font-bold grow">UXNZ <span className="font-light text-gray-500">2020</span></div>
@@ -127,7 +127,7 @@ export function Body() {
                 </div>
                 <img src="/abuse.png" className="w-full rounded-md" />
                 <div className="pt-2 font-light text-md">
-                  Tough lessons learned leading the abuse design team at Twitter.
+                  Lessons learned leading the abuse design team at Twitter.
                 </div>
                 </div>
 
@@ -138,8 +138,7 @@ export function Body() {
                 </div>
                 <img src="/greatdesign.png" className="w-full rounded-md" />
                 <div className="pt-2 font-light text-md">
-                  Great design doesn't always speak for itself,
-                  and here's here's what to do about it!
+                  Great design doesn't always speak for itself, so then what?
                 </div>
                 </div>
           </div>
