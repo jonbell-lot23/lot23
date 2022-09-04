@@ -58,11 +58,13 @@ export function Body() {
 
     <div>
       <div className="flex justify-center">
-        <div className="w-2/3 sm:w-full">
-          <div className="py-0 pl-0 my-0 font-medium text-md sm:pl-2 sm:text-md">My books</div>
+        <div className="w-2/3 mb-8 sm:w-full">
+          <div className="py-2 pl-0 text-xl font-medium sm:pl-2 sm:text-md">My books</div>
+          <div className="mx-2 border-b-[1px] border-gray-300"> </div>
         </div>  
       </div>
     </div>
+
         <div className="grid mt-4 gap-x-4 gap-y-8 sm:grid-cols-1 sm:gap-x-6 sm:m-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">              
               
               <div className="flex justify-center">

@@ -99,6 +99,16 @@ export function Body() {
     <section className="flex justify-center w-screen pt-8 mx-auto mt-8 text-md bg-blue-50 py-96">
       
       <div className="justify-center w-full p-2 sm:w-1/2"> 
+
+      <div>
+      <div className="flex justify-center">
+        <div className="w-2/3 mb-8 sm:w-full">
+          <div className="py-2 pl-0 text-xl font-medium sm:pl-2 sm:text-md">Selected talks</div>
+          <div className="mx-2 border-b-[1px] border-gray-300"> </div>
+        </div>  
+      </div>
+    </div>
+    
       <div className="p-0 sm:p-2">     
 
           <div className="flex">
