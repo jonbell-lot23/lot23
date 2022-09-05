@@ -98,11 +98,11 @@ export function Body() {
     return (
     <section className="flex justify-center w-screen pt-8 mx-auto mt-8 text-md bg-blue-50 py-96">
       
-      <div className="justify-center w-full p-2 sm:w-1/2"> 
+      <div className="justify-center p-2 sm:w-full md:w-4/5 lg:w-3/5 xl:w-1/2 2xl:w-1/2"> 
 
       <div>
       <div className="flex justify-center">
-        <div className="w-2/3 mb-8 sm:w-full">
+        <div className="mb-8 sm:w-full">
           <div className="py-2 pl-0 text-xl font-medium sm:pl-2 sm:text-md">Selected talks</div>
           <div className="mx-2 border-b-[1px] border-gray-300"> </div>
         </div>  
@@ -121,7 +121,7 @@ export function Body() {
           </div>
           
           
-          <div className="pt-2 font-light text-md">
+          <div className="pt-2 pb-4 font-light text-md">
             Designers are taught to figure out what the
             data says, try something, then iterate. 
             It turns out this works really well, even at scale!

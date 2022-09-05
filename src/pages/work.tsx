@@ -54,7 +54,8 @@ export function Body() {
     
     
     
-    <div className="justify-center w-full p-2 sm:w-3/5">              
+    <div className="justify-center p-2 sm:w-full md:w-10/5 lg:w-9/12 xl:w-3/4 2xl:w-1/2"> 
+               
 
     <div>
       <div className="flex justify-center">

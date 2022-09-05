@@ -37,7 +37,7 @@ export default function Home() {
         <img src="/plebe.png" />          
       </div>
       </Head>
-      <div className="w-56 mx-auto mt-8 sm:w-80 sm:px-0">  
+      <div className="mx-auto mt-8 w-80 sm:px-0">  
         <Header />
         <Body />
       </div>
