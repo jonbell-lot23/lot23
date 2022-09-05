@@ -58,9 +58,9 @@ export function Body() {
 
     <div>
       <div className="flex justify-center">
-        <div className="w-2/3 mb-8 sm:w-full">
+        <div className="w-4/5 mb-8 sm:w-full">
           <div className="py-2 pl-0 text-xl font-medium sm:pl-2 sm:text-md">My books</div>
-          <div className="mx-2 border-b-[1px] border-gray-300"> </div>
+          <div className="sm:mx-2 mx-0 border-b-[1px] border-gray-300"> </div>
         </div>  
       </div>
     </div>
@@ -68,21 +68,21 @@ export function Body() {
         <div className="grid mt-4 gap-x-4 gap-y-8 sm:grid-cols-1 sm:gap-x-6 sm:m-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">              
               
               <div className="flex justify-center">
-                <div className="w-2/3 sm:w-full">
+                <div className="w-4/5 sm:w-full">
                   <img src="/book1.png" className="rounded-md" />
                   <div className="pt-2">Book one of my trilogy. Essays about product design.</div>
                 </div> 
               </div>
 
               <div className="flex justify-center">
-                <div className="w-2/3 sm:w-full">
+              <div className="w-4/5 sm:w-full">
                   <img src="/book2.png" className="w-full rounded-md" />
                   <div className="pt-2">Book two is about listening well and leading teams.</div>
                 </div> 
               </div>
 
               <div className="flex justify-center">
-                <div className="w-2/3 sm:w-full">
+              <div className="w-4/5 sm:w-full">
                   <img src="/book3.png" className="w-full rounded-md" />
                   <div className="pt-2">Book three is about strategy and long-term thinking.</div>
                 </div>
@@ -92,23 +92,23 @@ export function Body() {
         <div className="grid mt-8 gap-x-4 gap-y-8 sm:grid-cols-1 sm:gap-x-6 sm:m-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">              
               
         <div className="flex justify-center">
-                <div className="w-2/3 sm:w-full">
+                <div className="w-4/5 sm:w-full">
                 <img src="/bedtime.png" className="w-full rounded-md" />
                 <div className="pt-2">Bedtime Stories is a book I wrote for my three kids ❤️</div>
               </div>  
               </div>
 
               <div className="flex justify-center">
-                <div className="w-2/3 sm:w-full">
+                <div className="w-4/5 sm:w-full">
                 <img src="/42and21.png" className="w-full rounded-md" />
                 <div className="pt-2">42 & 21 is full of life advice for my eldest son.</div>
               </div>
               </div>
 
               <div className="flex justify-center">
-                <div className="w-2/3 sm:w-full">
+                <div className="w-4/5 sm:w-full">
                 <img src="/plebe.png" className="w-full rounded-md" />
-                <div className="pt-2">Book three is about strategy and long-term thinking.</div>
+                <div className="pt-2">I publish a zine called Plebe, and this volume compiles its first decade.</div>
               </div>  
               </div>
         </div>   

@@ -54,12 +54,12 @@ export function Body() {
     
     
     
-    <div className="justify-center p-2 sm:w-full md:w-10/5 lg:w-9/12 xl:w-3/4 2xl:w-1/2"> 
+    <div className="justify-center p-2 mx-6 sm:w-full md:w-10/12 lg:w-9/12 xl:w-3/4 2xl:w-1/2"> 
                
 
     <div>
       <div className="flex justify-center">
-        <div className="w-2/3 sm:w-full">
+        <div className="w-4/5 sm:w-full">
           <div className="py-0 pl-0 my-0 font-medium text-md sm:pl-2 sm:text-md"></div>
         </div>  
       </div>
@@ -68,55 +68,55 @@ export function Body() {
     
     <div>
       <div className="flex justify-center">
-        <div className="w-2/3 mb-8 sm:w-full">
+        <div className="w-full mx-2 mb-8">
           <div className="py-2 pl-0 text-xl font-medium sm:pl-2 sm:text-md">Design teams I've led</div>
-          <div className="mx-2 border-b-[1px] border-gray-300"> </div>
+          <div className="sm:mx-2 mx-0 border-b-[1px] border-gray-300"> </div>
         </div>  
       </div>
     </div>
 
-        <div className="grid mt-4 gap-x-4 gap-y-8 sm:grid-cols-1 sm:gap-x-6 sm:m-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 xl:gap-x-8">                                    
+        <div className="grid mt-4 gap-x-4 gap-y-8 sm:grid-cols-2 sm:gap-x-2 sm:m-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 xl:gap-x-8">                                    
               <div className="flex justify-center">
-                <div className="w-2/3 sm:w-full">
+                <div className="w-full mx-2">
                   <div className="flex">
                     <div className="font-medium grow">Replay.io</div>    
                     <div className="items-end font-normal text-gray-500">2020</div>                
                   </div>
                   <img src="/replay.png" className="rounded-md" />
-                  <div className="pt-2">I'm the founding designer at Replay where we're making a time travelling debugger.</div>
+                  <div className="pt-2 text-sm sm:text-md">I'm the founding designer at Replay where we're making a time travelling debugger.</div>
                 </div> 
               </div>
 
               <div className="flex justify-center">
-                <div className="w-2/3 sm:w-full">
+              <div className="w-full mx-2">
                   <div className="flex">
                     <div className="font-medium grow">Twitter</div>
                     <div className="items-end font-normal text-gray-500">2014</div>
                   </div>
                   <img src="/twitter.png" className="rounded-md" />
-                  <div className="pt-2">I led the design team tasked with battling abuse rampant on Twitter's platform.</div>
+                  <div className="pt-2 text-sm sm:text-md">I led the design team tasked with battling abuse rampant on Twitter's platform.</div>
                 </div> 
               </div>
 
               <div className="flex justify-center">
-                <div className="w-2/3 sm:w-full">
+                <div className="w-full mx-2">
                   <div className="flex">
-                    <div className="font-medium grow">Microsoft Office</div>
+                    <div className="font-medium truncate grow">Microsoft Office</div>
                     <div className="items-end font-normal text-gray-500">2013</div>
                   </div>
                   <img src="/office.png" className="rounded-md" />
-                  <div className="pt-2">The team I led designed the first "univeral" version of Office for mobile + desktop.</div>
+                  <div className="pt-2 text-sm sm:text-md">The team I led designed the first "univeral" version of Office for mobile + desktop.</div>
                 </div> 
               </div>
 
               <div className="flex justify-center">
-                <div className="w-2/3 sm:w-full">
+                  <div className="w-full mx-2">
                   <div className="flex">
-                    <div className="font-medium grow">Windows Phone</div>
+                    <div className="font-medium truncate grow">Windows Phone</div>
                     <div className="items-end font-normal text-gray-500">2011</div>
                   </div>
                   <img src="/microsoft.png" className="rounded-md" />
-                  <div className="pt-2">I led the apps team on Windows Phone through three major versions.</div>
+                  <div className="pt-2 text-sm sm:text-md">I led the apps team on Windows Phone through three major versions.</div>
                 </div> 
               </div>
 
@@ -125,16 +125,16 @@ export function Body() {
 
     <div>
       <div className="flex justify-center">
-        <div className="w-2/3 my-8 sm:w-full">
+        <div className="w-full mx-2 my-8">
           <div className="py-2 pl-0 text-xl font-medium sm:pl-2 sm:text-md">Selected work</div>
-          <div className="mx-2 border-b-[1px] border-gray-300"> </div>
+          <div className="mx-0 border-b-[1px] border-gray-300"> </div>
         </div>  
       </div>
     </div>
 
 
 
-    <div className="w-full mb-48">                                          
+    <div className="w-full mb-8 sm:mb-48">                                          
         <div className="w-full px-2">
           
           <video preload="auto" className="" autoPlay loop muted>
@@ -142,7 +142,7 @@ export function Body() {
                   Sorry, your browser doesn't support embedded videos.
                 </video>
           <p className="p-0 pt-2 sm:pt-4 text-md">
-          <h3 className="mb-3 text-xl">Safety Center</h3>   
+          <h3 className="mb-3 text-sm sm:text-md">Safety Center</h3>   
               We knew from the data that most abuse happened in people’s
               notifications, so we felt strongly that we’d need to provide as
               many filtering options as possible to return control to them. This
@@ -155,7 +155,7 @@ export function Body() {
 
 
 
-  <div className="flex-none mb-48 sm:flex">                              
+  <div className="flex-none mb-8 sm:mb-48 sm:flex">                              
         <div className="flex items-center w-full px-2 py-4 sm:px-8">
           <div>
         <h3 className="text-xl">Hide Replies</h3>
@@ -177,7 +177,7 @@ export function Body() {
   </div>   
   
   
-  <div className="flex-none mb-48 sm:flex">                      
+  <div className="flex-none mb-8 sm:mb-48 sm:flex">                      
         <div className="w-full">       
         <div className="WorkSection-phone">
             <div className="WorkSection-phone-video">
@@ -205,7 +205,7 @@ export function Body() {
   </div>   
   
   
-  <div className="flex-none mb-48 sm:flex">                  
+  <div className="flex-none mb-8 sm:mb-48 sm:flex">                  
         
         <div className="flex items-center w-full px-2 py-4 sm:px-8 sm:w-2/5">
           <div>
@@ -227,7 +227,7 @@ export function Body() {
   
   </div>  
 
-  <div className="flex-none mb-48 sm:flex">    
+  <div className="flex-none mb-48 sm:flex">
 
       <div className="w-full sm:w-3/5">       
           <img src="assets/thirdparty.png" />
