@@ -59,34 +59,34 @@ export function Body() {
 
 
     <p className="p-0 pt-2 sm:pl-2 sm:pt-4 text-md">
-      <h3 className="mb-0 text-xl">Design Play</h3> 
+      <h4 className="mb-0">Design Play</h4> 
       A different kind of design conference.
       </p>
 
       <p className="p-0 pt-2 sm:pl-2 sm:pt-4 text-md">
-      <h3 className="mb-0 text-xl">The Long Talk</h3> 
+      <h4 className="mb-0">The Long Talk</h4> 
       An email game for making friends.
       </p>
 
 
       <p className="p-0 pt-2 sm:pl-2 sm:pt-4 text-md">
-      <h3 className="mb-0 text-xl">UX Launchpad</h3> 
+      <h4 className="mb-0">UX Launchpad</h4> 
       A design bootcamp I founded in 2012
       </p>
 
       <p className="p-0 pt-2 sm:pl-2 sm:pt-4 text-md">
-      <h3 className="mb-0 text-xl">Art Bot</h3> 
+      <h4 className="mb-0">Art Bot</h4> 
       One image every hour for a year.
       </p>
 
 
       <p className="p-0 pt-2 sm:pl-2 sm:pt-4 text-md">
-      <h3 className="mb-0 text-xl">Enthusiastic Panther</h3> 
+      <h4 className="mb-0">Enthusiastic Panther</h4> 
       A made-up band
       </p>
 
       <p className="p-0 pt-2 sm:pl-2 sm:pt-4 text-md">
-      <h3 className="mb-0 text-xl">He Wrote Go</h3> 
+      <h4 className="mb-0">He Wrote Go</h4> 
       A quarterly writing concern
       </p>
       

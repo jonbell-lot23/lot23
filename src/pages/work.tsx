@@ -48,9 +48,9 @@ export default function Home() {
 
 export function Body() {
   return (
-    
+    <>  
 
-    <section className="flex justify-center w-screen pt-8 mx-auto mt-8 bg-blue-50 py-96">
+    <section className="flex justify-center w-screen pt-8 mx-auto mt-8 bg-blue-50">
     
     
     
@@ -158,7 +158,7 @@ export function Body() {
   <div className="flex-none mb-8 sm:mb-48 sm:flex">                              
         <div className="flex items-center w-full px-2 py-4 sm:px-8">
           <div>
-        <h3 className="text-xl">Hide Replies</h3>
+        <h3>Hide Replies</h3>
             <p>
             In a 2016 brainstorm, my PM asked me why people couldn’t hide 
           replies to their own Tweets as a way to reduce harassment and abuse. 
@@ -192,7 +192,7 @@ export function Body() {
         </div>
         <div className="flex items-center w-full px-2 py-4 sm:px-8">
           <div>
-        <h3 className="text-xl">Tweet Submission Flow</h3>
+        <h3>Tweet Submission Flow</h3>
             <p>
               Posting a tweet is deceptively complex! What happens it takes a
               long time because of spotty bandwidth? What if something goes
@@ -209,7 +209,7 @@ export function Body() {
         
         <div className="flex items-center w-full px-2 py-4 sm:px-8 sm:w-2/5">
           <div>
-        <h3 className="text-xl">Windows Phone Email</h3>
+        <h3>Windows Phone Email</h3>
               <p>
                 We ask a lot out of our email apps. We want them to be easy to use
                 and uncluttered, but at the same time have the same power we
@@ -235,7 +235,7 @@ export function Body() {
                                     
         <div className="flex items-center w-full px-2 py-4 sm:px-8 sm:w-2/5">
           <div>
-        <h3 className="text-xl">Third Party Apps</h3>
+        <h3>Third Party Apps</h3>
               <p>
                 The biggest challenge for Windows Phone was getting third party
                 developers to write apps for the platform. I spent about a quarter
@@ -249,14 +249,26 @@ export function Body() {
         </div>    
 
               
-  </div> 
+    </div> 
+  </div>
+  </section>
+  <section className="flex justify-center w-screen pt-8 pb-24 mx-auto mt-8 bg-blue-200">
+  <div className="flex items-center w-full px-2 py-4 sm:px-8 sm:w-2/5">
+    <div>
+      <h3>About</h3>
+      <p>
+        I've been working in tech since 2000 on heaps of different projects on every kind of 
+        team. This is a small sampling of some stuff I've been involved with, and I'm always
+        happy to talk in more detail.
+      </p>
+      <p>
+        <a href="mailto:jon@lot23.com">You can contact me at jb@lot23.com</a>
+      </p>
+    </div>         
+  </div>
+  </section>
 
-      </div>
-
-
-
-    </section>
-  
+</>
     )
   }
 

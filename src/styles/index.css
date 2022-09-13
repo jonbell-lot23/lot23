@@ -6,8 +6,30 @@
 @import 'tailwindcss/utilities';
 
 
+BODY p
+{
+    font-size: 1rem;
+}
+
+BODY h3
+{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+BODY h4
+{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
 .header
 {
     height: 24px;
     cursor: pointer;    
+}
+
+.circle
+{
+    background-image: url("/circle.png");
 }
