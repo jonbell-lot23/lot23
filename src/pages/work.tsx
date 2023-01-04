@@ -159,7 +159,7 @@ export function Body() {
                 Sorry, your browser doesn't support embedded videos.
               </video>
               <p className="p-0 pt-2 sm:pt-4 text-md">
-                <h3 className="mb-3 text-sm sm:text-md">Safety Center</h3>
+                <h3 className="mb-3 text-md">Safety Center</h3>
                 We knew from the data that most abuse happened in people’s
                 notifications, so we felt strongly that we’d need to provide as
                 many filtering options as possible to return control to them.
