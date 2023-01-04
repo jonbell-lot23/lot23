@@ -114,8 +114,8 @@ export function Body() {
                 </div>
                 <img src="/office.png" className="rounded-md" />
                 <div className="pt-2 text-sm sm:text-md">
-                  The team I led designed the first "univeral" version of Office
-                  for mobile + desktop.
+                  The team I led designed the first "universal" version of
+                  Office for mobile + desktop.
                 </div>
               </div>
             </div>
