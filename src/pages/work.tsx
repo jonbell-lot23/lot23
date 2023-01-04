@@ -257,7 +257,7 @@ export function Body() {
         </div>
       </section>
       <section className="flex justify-center w-screen pt-8 pb-24 mx-auto mt-8 bg-blue-200">
-        <div className="flex items-center w-full px-2 py-4 sm:px-8 sm:w-2/5">
+        <div className="flex items-center w-full px-8 py-4 sm:px-8 sm:w-2/5">
           <div>
             <h3>About</h3>
             <p>
