@@ -65,7 +65,7 @@ export function Body() {
             <div className="w-4/5 sm:w-full">
               <img src="/book1.png" className="rounded-md" />
               <div className="pt-2 font-light text-md">
-                Book one of my trilogy. Essays about product design.
+                Book one features essays about product design.
               </div>
             </div>
           </div>
