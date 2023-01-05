@@ -56,9 +56,9 @@ export function HomeLink({ page }) {
   useEffect(() => {
     function handleScroll() {
       if (window.scrollY > 100) {
-        elementRef.current.classList.add("rotated"); // add the rotated class when the scroll position is greater than 100
+        elementRef.current.classList.add("rotated");
       } else {
-        elementRef.current.classList.remove("rotated"); // remove the rotated class when the scroll position is less than or equal to 100
+        elementRef.current.classList.remove("rotated");
       }
     }
 
