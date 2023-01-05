@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import React, { useEffect, useRef } from "react";
 
 export default function Header() {
   const pages = ["talks", "writing", "work", "projects"];
@@ -47,14 +48,33 @@ export function HomeLink({ page }) {
   const currentPath = router.asPath;
   const link = `/`;
 
+  const elementRef = useRef(null);
+
   const img = currentPath == link ? `/${page}_highlight.png` : `/${page}.png`;
   const highlight = `${page}_highlight.png`.toString();
+
+  useEffect(() => {
+    function handleScroll() {
+      if (window.scrollY > 100) {
+        elementRef.current.classList.add("rotated"); // add the rotated class when the scroll position is greater than 100
+      } else {
+        elementRef.current.classList.remove("rotated"); // remove the rotated class when the scroll position is less than or equal to 100
+      }
+    }
+
+    window.addEventListener("scroll", handleScroll); // listen for scroll events
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll); // remove the event listener when the component unmounts
+    };
+  }, []);
 
   return (
     <Link href={link}>
       <img
         src={img}
-        className="header"
+        ref={elementRef}
+        className="header rotate"
         onMouseOver={(e) => (e.currentTarget.src = highlight)}
         onMouseOut={(e) => (e.currentTarget.src = img)}
       />

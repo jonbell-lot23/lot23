@@ -1,35 +1,37 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
 
 /* Your own custom component styles */
 
-@import 'tailwindcss/utilities';
+@import "tailwindcss/utilities";
 
-
-BODY p
-{
-    font-size: 1rem;
+BODY p {
+  font-size: 1rem;
 }
 
-BODY h3
-{
-    font-size: 1.3rem;
-    font-weight: 500;
+BODY h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 
-BODY h4
-{
-    font-size: 1.1rem;
-    font-weight: 500;
+BODY h4 {
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
-.header
-{
-    height: 24px;
-    cursor: pointer;    
+.header {
+  height: 24px;
+  cursor: pointer;
 }
 
-.circle
-{
-    background-image: url("/circle.png");
+.circle {
+  background-image: url("/circle.png");
+}
+
+.rotate {
+  transition: transform 0.23s; /* animate changes to the transform property over 0.5 seconds */
+}
+
+.rotate.rotated {
+  transform: rotate(98deg); /* rotate the element 90 degrees */
 }
