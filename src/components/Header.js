@@ -74,7 +74,7 @@ export function HomeLink({ page }) {
       <img
         src={img}
         ref={elementRef}
-        className="header rotate"
+        className="header rotate w-5 sm:w-12"
         onMouseOver={(e) => (e.currentTarget.src = highlight)}
         onMouseOut={(e) => (e.currentTarget.src = img)}
       />
