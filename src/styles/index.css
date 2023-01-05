@@ -29,7 +29,7 @@ BODY h4 {
 }
 
 .rotate {
-  transition: transform 0.23s; /* animate changes to the transform property over 0.5 seconds */
+  transition: transform 0.23s; /* animate changes to the transform property over 0.23 seconds */
 }
 
 .rotate.rotated {
