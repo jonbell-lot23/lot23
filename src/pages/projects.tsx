@@ -43,7 +43,7 @@ export function Body() {
           <div className="flex justify-center">
             <div className="w-full mx-2 my-8">
               <div className="py-2 pl-0 text-xl font-medium sm:pl-2 sm:text-md">
-                <img src="/header_projects.png" />
+                Notable projects
               </div>
               <div className="mx-2 border-b-[1px] border-gray-300"> </div>
             </div>
